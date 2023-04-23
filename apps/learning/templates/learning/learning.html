@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div id="container" class="pb-20" data-lesson="{{ lesson.slug }}" data-user_activity_id="{{activity.slug}}"></div>
+{% endblock content %}
+
+{% block js %}
+<script src="{% static 'build/js/learning.js' %}"></script>
+{% endblock js %}

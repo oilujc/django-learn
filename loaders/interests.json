@@ -1,0 +1,252 @@
+[
+    {
+        "model": "authentication.interest",
+        "pk": 44,
+        "fields": {
+            "interest": "viajar",
+            "translation": "travel",
+            "slug": "travel",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 45,
+        "fields": {
+            "interest": "cocina y gastronomía",
+            "translation": "cooking and gastronomy",
+            "slug": "cooking-and-gastronomy",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 46,
+        "fields": {
+            "interest": "deportes",
+            "translation": "sports",
+            "slug": "sports",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 47,
+        "fields": {
+            "interest": "tecnología",
+            "translation": "technology",
+            "slug": "technology",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 48,
+        "fields": {
+            "interest": "videojuegos",
+            "translation": "video games",
+            "slug": "video-games",
+            "users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 49,
+        "fields": {
+            "interest": "arte y diseño",
+            "translation": "art and design",
+            "slug": "art-and-design",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 50,
+        "fields": {
+            "interest": "fotografía",
+            "translation": "photography",
+            "slug": "photography",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 51,
+        "fields": {
+            "interest": "música",
+            "translation": "music",
+            "slug": "music",
+            "users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 52,
+        "fields": {
+            "interest": "películas y series de televisión",
+            "translation": "movies and tv shows",
+            "slug": "movies-and-tv-shows",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 53,
+        "fields": {
+            "interest": "política y actualidad",
+            "translation": "politics and current events",
+            "slug": "politics-and-current-events",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 54,
+        "fields": {
+            "interest": "economía y finanzas",
+            "translation": "economy and finance",
+            "slug": "economy-and-finance",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 55,
+        "fields": {
+            "interest": "literatura",
+            "translation": "literature",
+            "slug": "literature",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 56,
+        "fields": {
+            "interest": "idiomas",
+            "translation": "languages",
+            "slug": "languages",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 57,
+        "fields": {
+            "interest": "jardinería y plantas",
+            "translation": "gardening and plants",
+            "slug": "gardening-and-plants",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 58,
+        "fields": {
+            "interest": "manualidades y bricolaje",
+            "translation": "crafts and diy",
+            "slug": "crafts-and-diy",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 59,
+        "fields": {
+            "interest": "programacion",
+            "translation": "programming",
+            "slug": "programming",
+            "users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 60,
+        "fields": {
+            "interest": "animales",
+            "translation": "animals",
+            "slug": "animals",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 61,
+        "fields": {
+            "interest": "ciencias",
+            "translation": "science",
+            "slug": "science",
+            "users": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 62,
+        "fields": {
+            "interest": "historia",
+            "translation": "history",
+            "slug": "history",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 63,
+        "fields": {
+            "interest": "geografía",
+            "translation": "geography",
+            "slug": "geography",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 64,
+        "fields": {
+            "interest": "aprendizaje",
+            "translation": "learning",
+            "slug": "learning",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 65,
+        "fields": {
+            "interest": "introduccion",
+            "translation": "introduction",
+            "slug": "introduction",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 66,
+        "fields": {
+            "interest": "cultura",
+            "translation": "culture",
+            "slug": "culture",
+            "users": []
+        }
+    },
+    {
+        "model": "authentication.interest",
+        "pk": 67,
+        "fields": {
+            "interest": "entrevistas",
+            "translation": "interviews",
+            "slug": "interviews",
+            "users": [
+                1
+            ]
+        }
+    }
+]

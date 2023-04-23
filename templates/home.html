@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+{% url 'home' as home %}
+{% url 'learning:learning' as learning %}
+{% url 'learning:interests' as interests %}
+
+
+<div class="absolute top-0 left-0 w-full h-full -z-10"
+    style="background-image: url('{% static 'img/bg.svg' %}'); background-size: cover;"></div>
+
+<div class="flex flex-col items-center justify-center h-full">
+    <div class="flex flex-col items-center justify-center text-center">
+        <h1 class="text-4xl font-bold text-white">Welcome to Learn English</h1>
+
+        <p class="text-white mt-2">
+            Learn English is a platform where you can learn English in a fun way.
+        </p>
+    </div>
+
+    <div class="w-100 mt-6">
+
+        {% if user.is_authenticated %}
+        <a href="{% if user.interests.count == 0 %} {{ interests }} {% else %} {{ learning }} {% endif %}"
+            class="bg-white text-orange-500 p-4 rounded text-center block">
+            Start learning <span aria-hidden="true">&rarr;</span>
+        </a>
+        {% else %}
+        <a href="{{ learning }}" class="bg-white text-orange-500 p-4 rounded text-center block">
+            Start learning <span aria-hidden="true">&rarr;</span>
+        </a>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock content %}

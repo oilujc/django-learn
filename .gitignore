@@ -1,0 +1,7 @@
+train/
+data/
+static-root/
+media-root/
+
+static/build/
+.env

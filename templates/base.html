@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English</title>
+
+    <link rel="stylesheet" href="{% static 'build/css/app.css' %}">
+
+    
+    {% block css %}
+        
+    {% endblock css %}
+        
+</head>
+<body>
+
+    {% include './components/header.html' %}
+
+    <div class="mx-auto max-w-7xl px-6 py-20 lg:pb-0 lg:px-8 h-screen ">
+        
+        {% block content %}
+            
+        {% endblock content %}
+            
+    </div>
+    
+    <script src="{% static 'build/js/runtime.js' %}"></script>
+    <script src="{% static 'build/js/vendors.js' %}"></script>
+    <script src="{% static 'build/js/app.js' %}"></script>
+    
+    {% block js %}
+        
+    {% endblock js %}
+        
+</body>
+</html>
