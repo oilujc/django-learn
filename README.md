@@ -16,7 +16,7 @@ npm install
 
 ----
 
-# Django leadn
+# Django learn
 
 Our project is an online language learning platform focused on providing a personalized and effective educational experience for students around the world. This project is open-source and built using the Django framework.
 
